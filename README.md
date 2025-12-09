@@ -2,6 +2,13 @@
 
 Raycast extension for running timed focus sessions with randomized break prompts, a dedicated start form, and a history viewer.
 
+## Inspiration
+
+This extension is partly inspired by the [paper](https://pubmed.ncbi.nlm.nih.gov/32375031) “Replay of Learned Neural Firing Sequences during Rest in Human Motor Cortex” (Eichenlaub et al., 2020).
+The study shows that after a period of focused activity, the brain replays task-related neural patterns during rest, a process believed to support consolidation and performance improvement.
+
+Randomized micro-breaks in this extension draw from that idea: instead of fixed, predictable intervals (which the brain can quickly adapt to), unpredictable rest opportunities help interrupt anticipatory fatigue and create short off-task windows that may better support mental reset and retention.
+
 ## Commands
 
 - `Random Focus Session` (menu bar): persistent status, start/stop control, random break prompts, and shortcut to history.
