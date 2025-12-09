@@ -1,0 +1,52 @@
+{
+  "name": "random-focus-session",
+  "title": "Random Focus Session",
+  "subtitle": "Focus",
+  "description": "90-minute focus sessions with randomized micro-break prompts",
+  "version": "0.1.0",
+  "icon": "assets/icon.png",
+  "schemaVersion": 1,
+  "author": "zach",
+  "platforms": [
+    "macOS"
+  ],
+  "categories": [
+    "Productivity"
+  ],
+  "contributors": [
+    "zach"
+  ],
+  "main": "src/random-focus-session.tsx",
+  "scripts": {
+    "dev": "ray dev",
+    "build": "ray build"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.72.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "commands": [
+    {
+      "name": "random-focus-session",
+      "title": "Random Focus Session",
+      "subtitle": "Focus",
+      "description": "Start, stop, and monitor focus sessions with randomized micro-break prompts.",
+      "mode": "menu-bar",
+      "interval": "1m"
+    },
+    {
+      "name": "start-focus-session",
+      "title": "Start Focus Session",
+      "description": "Start a focus session with a task description.",
+      "mode": "view"
+    },
+    {
+      "name": "focus-history",
+      "title": "Focus History",
+      "description": "View focus session history and stats.",
+      "mode": "view"
+    }
+  ]
+}
